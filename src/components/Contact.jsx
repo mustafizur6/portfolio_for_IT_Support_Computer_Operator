@@ -5,9 +5,9 @@ import emailjs from '@emailjs/browser'
 gsap.registerPlugin(ScrollTrigger)
 
 // ✅ Replace these 3 values with your actual EmailJS credentials
-const EMAILJS_SERVICE_ID  = 'service_iik8r2f'
-const EMAILJS_TEMPLATE_ID = 'template_yueymw7'
-const EMAILJS_PUBLIC_KEY  = 'ls7RIKiCSGyUJkDXH'
+const EMAILJS_SERVICE_ID  = import.meta.env.VITE_EMAILJS_SERVICE_ID
+const EMAILJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID
+const EMAILJS_PUBLIC_KEY  = import.meta.env.VITE_EMAILJS_PUBLIC_KEY
 
 export default function Contact() {
   const sectionRef = useRef(null)
