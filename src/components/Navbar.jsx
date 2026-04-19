@@ -35,7 +35,7 @@ export default function Navbar() {
      
         <a href="#home" onClick={(e) => handleClick(e, '#home')}
   className="text-white font-bold text-xl tracking-wide">
-  MD. Mustafizur<span className="text-green-400">.</span>
+  Mustafizur Rahman
 </a>
 
         {/* Desktop Links */}
@@ -59,7 +59,7 @@ export default function Navbar() {
 
         {/* Mobile Menu Toggle */}
         <button onClick={() => setMenuOpen(!menuOpen)}
-          className="md:hidden text-white focus:outline-none">
+          className="md:hidden text-white focus:outline-none pr-12">
           <div className={`w-6 h-0.5 bg-white mb-1.5 transition-all ${menuOpen ? 'rotate-45 translate-y-2' : ''}`} />
           <div className={`w-6 h-0.5 bg-white mb-1.5 transition-all ${menuOpen ? 'opacity-0' : ''}`} />
           <div className={`w-6 h-0.5 bg-white transition-all ${menuOpen ? '-rotate-45 -translate-y-2' : ''}`} />
@@ -85,3 +85,4 @@ export default function Navbar() {
     </nav>
   )
 }
+

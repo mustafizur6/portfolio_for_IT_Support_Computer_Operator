@@ -13,11 +13,11 @@ export default function App() {
     <div>
       <Navbar />
       <Hero />
-      <About />
       <Skills />
-      <Education />
       <SampleWork />
+      <Education />
       <Projects />
+      <About />
       <Contact />
       <Footer />
     </div>
