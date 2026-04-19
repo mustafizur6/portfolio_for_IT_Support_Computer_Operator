@@ -3,7 +3,7 @@ import Hero from './components/Hero'
 import About from './components/About'
 import Skills from './components/Skills'
 import Education from './components/Education'
-import SampleWork from './components/SampleWork' 
+import SampleWork from './components/SampleWork'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
@@ -13,19 +13,16 @@ export default function App() {
     <div>
       <Navbar />
       <Hero />
-      <Skills />
-       <SampleWork />  
-      <Education />
-      <Projects />
       <About />
+      <Skills />
+      <Education />
+      <SampleWork />
+      <Projects />
       <Contact />
       <Footer />
     </div>
   )
 }
-
-
-
 // public/
 // └── samples/
 //     ├── math-question-paper.pdf
