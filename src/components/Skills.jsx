@@ -34,14 +34,21 @@ const skillGroups = [
     color: 'pink',
     skills: ['Attention to Detail', 'Data Confidentiality', 'Punctuality', 'Time Management', 'Adaptability'],
   },
+    {
+    category: 'Tech & Fundamentals',
+    icon: '💡',
+    color: 'teal',
+    skills: ['Basic Programming', 'Basic OS', 'Basic Computer Networking','JAVASCRIPT'],
+  },
 ]
 
 const colorMap = {
   blue:   { card: 'hover:border-blue-400/50',   icon: 'bg-blue-400/10 text-blue-300',   tag: 'bg-blue-400/10 text-blue-300 border-blue-400/20',   label: 'text-blue-300',   dot: 'bg-blue-400' },
   green:  { card: 'hover:border-green-400/50',  icon: 'bg-green-400/10 text-green-300', tag: 'bg-green-400/10 text-green-300 border-green-400/20', label: 'text-green-300', dot: 'bg-green-400' },
-  purple: { card: 'hover:border-purple-400/50', icon: 'bg-purple-400/10 text-purple-300',tag: 'bg-purple-400/10 text-purple-300 border-purple-400/20',label: 'text-purple-300',dot: 'bg-purple-400' },
-  orange: { card: 'hover:border-orange-400/50', icon: 'bg-orange-400/10 text-orange-300',tag: 'bg-orange-400/10 text-orange-300 border-orange-400/20',label: 'text-orange-300',dot: 'bg-orange-400' },
+  purple: { card: 'hover:border-purple-400/50', icon: 'bg-purple-400/10 text-purple-300', tag: 'bg-purple-400/10 text-purple-300 border-purple-400/20', label: 'text-purple-300', dot: 'bg-purple-400' },
+  orange: { card: 'hover:border-orange-400/50', icon: 'bg-orange-400/10 text-orange-300', tag: 'bg-orange-400/10 text-orange-300 border-orange-400/20', label: 'text-orange-300', dot: 'bg-orange-400' },
   pink:   { card: 'hover:border-pink-400/50',   icon: 'bg-pink-400/10 text-pink-300',   tag: 'bg-pink-400/10 text-pink-300 border-pink-400/20',   label: 'text-pink-300',   dot: 'bg-pink-400' },
+  teal:   { card: 'hover:border-teal-400/50',   icon: 'bg-teal-400/10 text-teal-300',   tag: 'bg-teal-400/10 text-teal-300 border-teal-400/20',   label: 'text-teal-300',   dot: 'bg-teal-400' },
 }
 
 export default function Skills() {
