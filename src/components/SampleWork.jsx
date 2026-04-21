@@ -8,82 +8,91 @@ const categories = ['All', 'MS Word', 'MS Excel', 'Typing Speed']
 const samples = [
   // MS Word
   {
-    title: 'Question Paper',
-    category: 'MS Word',
-    desc: 'Math, Physics, English: Calculus, algebra & geometry equations typed using EQ Field Code. MCQ, short & broad sections with proper marks.',
-    file: '/samples/math-question-paper.pdf',
-    thumb: '/samples/math-question-paper-thumb.jpg',
-    tags: ['EQ Field Code', 'Equations', 'Formatting'],
-    icon: '📐',
-  },
-
-  {
-    title: 'Official School Notice',
+    title: 'NOTICE',
     category: 'MS Word',
     desc: 'Professionally formatted school notice with header, notice number, date, body text and principal signature.',
-    file: '/samples/school-notice.pdf',
-    thumb: '/samples/school-notice-thumb.jpg',
+    file: '/public/samples/NibrasIS_Notice_Circular_Templates.pdf',
+    thumb: '/public//samples/',
     tags: ['Notice', 'Official', 'Formatting'],
     icon: '📢',
   },
   {
-    title: 'Student Certificate Template',
-    category: 'MS Word',
-    desc: 'Formal student certificate with decorative border, institution header, student details and signature lines.',
-    file: '/samples/student-certificate.pdf',
-    thumb: '/samples/student-certificate-thumb.jpg',
-    tags: ['Certificate', 'Template', 'Design'],
-    icon: '🏆',
+    title: 'DIGITAL FILING SYSTEM DEMO',
+    category: 'Data Management',
+    desc: '',
+    file: '/public/samples/NibrasIS_DigitalFilingSystem_Demo.pdf',
+    thumb: '/public//samples/filing.png',
+    tags: ['Notice', 'Official', 'Formatting'],
+    icon: '📁',
   },
+  {
+    title: ' BACKUP SYSTEM SETUP GUIDE',
+    category: 'Data Management',
+    desc: '',
+    file: '/public/samples/NibrasIS_BackupSystem_Setup_Guide.pdf',
+    thumb: '/public//samples/backup.png',
+    tags: ['Notice', 'Official', 'Formatting'],
+    icon: '📁',
+  },
+
+  // {
+  //   title: 'Student Certificate Template',
+  //   category: 'MS Word',
+  //   desc: 'Formal student certificate with decorative border, institution header, student details and signature lines.',
+  //   file: '/samples/student-certificate.pdf',
+  //   thumb: '/samples/student-certificate-thumb.jpg',
+  //   tags: ['Certificate', 'Template', 'Design'],
+  //   icon: '🏆',
+  // },
   // MS Excel
   {
     title: 'Student Result Sheet',
     category: 'MS Excel',
     desc: 'Full result sheet with automatic GPA calculation using IF formulas. Grade boundaries, totals and pass/fail.',
-    file: '/samples/result-sheet.pdf',
-    thumb: '/samples/result-sheet-thumb.jpg',
+    file: '/public//samples//result-sheet.pdf',
+    thumb: '/public//samples//result.png',
     tags: ['GPA Formula', 'IF Function', 'Excel'],
     icon: '📊',
   },
-  {
-    title: 'Attendance Tracking Sheet',
-    category: 'MS Excel',
-    desc: 'Monthly attendance sheet with present/absent tracking, percentage calculation and color-coded status.',
-    file: '/samples/attendance-sheet.pdf',
-    thumb: '/samples/attendance-sheet-thumb.jpg',
-    tags: ['Attendance', 'Tracking', 'Formulas'],
-    icon: '📋',
-  },
-  {
-    title: 'Exam Marks Entry Sheet',
-    category: 'MS Excel',
-    desc: 'Subject-wise exam marks entry with automatic total, average and grade generation per student.',
-    file: '/samples/exam-marks-sheet.pdf',
-    thumb: '/samples/exam-marks-sheet-thumb.jpg',
-    tags: ['Data Entry', 'Marks', 'Auto Grade'],
-    icon: '✏️',
-  },
+  // {
+  //   title: 'Attendance Tracking Sheet',
+  //   category: 'MS Excel',
+  //   desc: 'Monthly attendance sheet with present/absent tracking, percentage calculation and color-coded status.',
+  //   file: '/samples/attendance-sheet.pdf',
+  //   thumb: '/samples/attendance-sheet-thumb.jpg',
+  //   tags: ['Attendance', 'Tracking', 'Formulas'],
+  //   icon: '📋',
+  // },
+  // {
+  //   title: 'Exam Marks Entry Sheet',
+  //   category: 'MS Excel',
+  //   desc: 'Subject-wise exam marks entry with automatic total, average and grade generation per student.',
+  //   file: '/samples/exam-marks-sheet.pdf',
+  //   thumb: '/samples/exam-marks-sheet-thumb.jpg',
+  //   tags: ['Data Entry', 'Marks', 'Auto Grade'],
+  //   icon: '✏️',
+  // },
   // Typing Speed
   {
     title: 'English Typing — 55 WPM',
     category: 'Typing Speed',
     desc: 'Verified typing speed test result from 10fastfingers.com. 55 words per minute with accuracy score.',
-    file: '/samples/typing-english.jpg',
-    thumb: '/samples/typing-english.jpg',
+    file: '/public/samples/typing_certificate.pdf',
+    thumb: '/public/samples/typing.png',
     tags: ['55 WPM', 'English', 'Verified'],
     icon: '⌨️',
-    isImage: true,
+    // isImage: true,
   },
-  {
-    title: 'Bangla Typing — 40 WPM',
-    category: 'Typing Speed',
-    desc: 'Verified Bangla typing speed. 40 WPM using Unicode and Bijoy keyboard layout.',
-    file: '/samples/typing-bangla.jpg',
-    thumb: '/samples/typing-bangla.jpg',
-    tags: ['40 WPM', 'Bangla', 'Unicode & Bijoy'],
-    icon: '🔤',
-    isImage: true,
-  },
+  // {
+  //   title: 'Bangla Typing — 40 WPM',
+  //   category: 'Typing Speed',
+  //   desc: 'Verified Bangla typing speed. 40 WPM using Unicode and Bijoy keyboard layout.',
+  //   file: '/samples/typing-bangla.jpg',
+  //   thumb: '/samples/typing-bangla.jpg',
+  //   tags: ['40 WPM', 'Bangla', 'Unicode & Bijoy'],
+  //   icon: '🔤',
+  //   isImage: true,
+  // },
 ]
 
 export default function SampleWork() {
@@ -129,6 +138,7 @@ export default function SampleWork() {
             <h2 className="text-4xl font-bold text-white">
               Sample work & verified<br />
               <span className="text-green-400">skills showcase</span>
+              <span className='text-lg pl-2 text-red-400'>(I will add more soon)</span>
             </h2>
           </div>
           <p className="text-gray-400 text-sm max-w-xs mt-4 md:mt-0">
@@ -258,3 +268,16 @@ export default function SampleWork() {
     </section>
   )
 }
+
+
+// NibrasIS_DigitalFilingSystem_Demo -  https://drive.google.com/file/d/12txS_kwHA8QSeyvUdHor78QuKq2psN5D/view?usp=sharing
+
+// NibrasIS_BackupSystem_Setup_Guide -  https://drive.google.com/file/d/1DiTR7Es3uwekAC-cQNTVrMupLF9di3JC/view?usp=sharing 
+
+//  NibrasIS_Notice_Templates - https://drive.google.com/file/d/1HL7WaNeXH08ODxeDXI7QyPExTObq-afy/view?usp=sharing
+
+// exam-marks-sheet -  https://drive.google.com/file/d/1lROxnlkagdwQg2vUcu-NSQb3P6b2VbQR/view?usp=sharing
+
+// result- sheet  - https://drive.google.com/file/d/1G8v0LhmiMvDziCT-fU21YMRbJaVDyqP-/view?usp=sharing
+
+// typing certificate -  https://drive.google.com/file/d/1ShOITma3YwY_LUK6xEEMkhbZwCN2w_27/view?usp=sharing

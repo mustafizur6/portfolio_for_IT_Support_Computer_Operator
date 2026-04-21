@@ -33,11 +33,11 @@ export default function Hero() {
 
       {/* Background image — hidden on small mobile, visible md+ */}
       <div className="absolute inset-0">
-        <div className="absolute right-0 top-0 w-full md:w-1/2 h-full bg-gradient-to-l from-transparent to-[#0a1f1a] z-10" />
+        <div className="absolute right-0 top-0 w-full md:w-1/2 h-full bg-gradient-to-l from-transparent to-[#0a1d18] z-10" />
         <img
-          src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80"
+          src="https://i.ibb.co.com/M52Pr2Y0/Mustafizur-boat.jpg"
           alt="hero"
-          className="absolute right-0 top-0 w-full md:w-1/2 h-full object-cover object-top opacity-20 md:opacity-60"
+          className="absolute right-0 top-0 w-full md:w-1/2 h-full object-cover object-top "
         />
       </div>
 
@@ -58,8 +58,7 @@ export default function Hero() {
               <span className="text-green-400">I'm Mustafizur,</span>
               <br />
               <span className="text-white">Computer Operator</span>
-              <br />
-              <span className="text-white">based in Dhaka</span>
+             
             </h1>
 
             <p ref={paraRef}
@@ -80,7 +79,7 @@ export default function Hero() {
                 <span className="w-9 h-9 sm:w-10 sm:h-10 rounded-full border border-green-400 flex items-center justify-center text-green-400 hover:bg-green-400 hover:text-gray-900 transition-all duration-200 text-sm">
                   ▶
                 </span>
-                <span className="text-sm sm:text-base">Video CV</span>
+                <span className="text-sm sm:text-base">Intro(processing)</span>
               </button>
             </div>
 
@@ -112,7 +111,7 @@ export default function Hero() {
             <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
               <iframe
                 className="absolute inset-0 w-full h-full"
-                src={`https://www.youtube.com/embed/${YOUTUBE_ID}?autoplay=1`}
+                src={``}
                 title="Video CV — MD. Mustafizur Rahman"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
@@ -124,3 +123,6 @@ export default function Hero() {
     </section>
   )
 }
+
+
+// https://i.ibb.co.com/xq4f5Rtk/rsz-mustafizur.jpg

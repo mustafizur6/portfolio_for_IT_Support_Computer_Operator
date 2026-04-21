@@ -80,11 +80,10 @@ export default function Contact() {
               <span className="text-green-400 text-sm">Contact Me</span>
             </div>
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-              Get in touch to discuss<br />
-              your <span className="text-green-400">next project</span>
+              Get in touch
             </h2>
             <p className="text-gray-400 text-sm leading-relaxed mb-8">
-              Looking for a reliable Computer Operator or IT Support staff?
+              Looking for a reliable Computer Operator ?
               I'm available full-time (Sat–Thu). I'll reply within a few hours InshaAllah.
             </p>
 

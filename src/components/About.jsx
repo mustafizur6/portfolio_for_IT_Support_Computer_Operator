@@ -31,7 +31,7 @@ export default function About() {
             <div className="absolute inset-4 rounded-full border border-green-400/50" />
             {/* Replace src below with your actual photo */}
             <img
-              src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?w=400&q=80"
+              src="https://i.ibb.co.com/xq4f5Rtk/rsz-mustafizur.jpg"
               alt="MD. Mustafizur Rahman"
               className="absolute inset-6 rounded-full object-cover w-[calc(100%-3rem)] h-[calc(100%-3rem)]"
               style={{ border: '3px solid #4ade80' }}

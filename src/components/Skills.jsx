@@ -14,7 +14,7 @@ const skillGroups = [
     category: 'Data Entry',
     icon: '⌨️',
     color: 'green',
-    skills: ['English Data Entry','Bangla Entry (Bijoy)',  'Admission & Attendance Entry', 'Email Management', 'Record Filing', 'Data Backup'],
+    skills: ['English Data Entry','Bangla Entry ',  'Admission & Attendance Entry', 'Email Management', 'Record Filing', 'Data Backup'],
   },
   {
     category: 'IT Support',
@@ -26,7 +26,7 @@ const skillGroups = [
     category: 'Typing & Tools',
     icon: '🚀',
     color: 'orange',
-    skills: ['English — 55 WPM', 'Bangla — 40 WPM', 'Claude AI', 'ChatGPT'],
+    skills: ['English — 55 WPM', 'Bangla — 25 WPM', 'Claude AI', 'ChatGPT'],
   },
   {
     category: 'Soft Skills',
