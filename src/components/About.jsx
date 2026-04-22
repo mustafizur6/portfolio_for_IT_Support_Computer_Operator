@@ -88,9 +88,9 @@ export default function About() {
             </div>
           </div>
 
-          <div className="flex items-center gap-6">
+          {/* <div className="flex items-center gap-6">
             <div className="bg-[#1a3530] rounded-xl p-5 text-center">
-              <p className="text-green-400 text-3xl font-bold">55</p>
+              <p className="text-green-400 text-3xl font-bold">55+</p>
               <p className="text-gray-400 text-xs mt-1">WPM English</p>
             </div>
             <div className="bg-[#1a3530] rounded-xl p-5 text-center">
@@ -101,7 +101,7 @@ export default function About() {
               className="text-white flex items-center gap-2 hover:text-green-400 transition-colors font-medium">
               Download CV <span className="text-green-400">✦</span>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

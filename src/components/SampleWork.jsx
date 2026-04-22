@@ -128,7 +128,7 @@ const samples = [
     file: 'https://drive.google.com/file/d/1ShOITma3YwY_LUK6xEEMkhbZwCN2w_27/preview',
     download: 'https://drive.google.com/uc?export=download&id=1ShOITma3YwY_LUK6xEEMkhbZwCN2w_27',
     thumbnail: 'https://i.ibb.co.com/B5fLFg6F/Typing.png',
-    tags: ['Typing', '55 WPM'],
+    tags: ['Typing', '55+ WPM'],
   },
 ]
 
@@ -601,7 +601,7 @@ export default function SampleWork() {
         }
       `}</style>
 
-      <section ref={sectionRef} className="sample-section bg-[#0d2420] py-28">
+      <section ref={sectionRef} id="samples" className="sample-section bg-[#0d2420] py-28">
 
         {/* Background Orbs */}
         <div ref={el => (floatingOrbs.current[0] = el)} className="orb"

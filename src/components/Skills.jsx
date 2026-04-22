@@ -8,14 +8,14 @@ const skillGroups = [
     category: 'Office & Documents',
     icon: '📄',
     color: 'blue',
-    skills: ['Document Formation and creation','Email Management','Data Entry',, 'Confidential Data Handling & Backup', ],
+    skills: ['Document Formatting and creation','Email Management','Data Entry', 'Confidential Data Handling & Backup', ],
   },
 
   {
     category: 'IT Support',
     icon: '🖥️',
     color: 'purple',
-    skills: ['PC Diagnosis & Optimization', 'OS Installation & Setup', 'Hardware-Software Configuration & Troubeshooting (basic)', 'Virus Removal & Security', 'Printer Maintenance'],
+    skills: ['PC Diagnosis & Performance Optimization', 'OS Installation & Setup', 'Hardware-Software Configuration & Troubeshooting (basic)', 'Virus Removal & Security', 'Printer Setup & Maintenance'],
   },
   {
     category: 'Tools',
@@ -33,7 +33,7 @@ const skillGroups = [
     category: 'Tech & Fundamentals',
     icon: '💡',
     color: 'teal',
-    skills: ['Basic Programming', 'Basic OS', 'Basic Computer Networking','JAVASCRIPT'],
+    skills: ['Basic Programming (JavaScript)', 'Operating System Basics', 'Basic Computer Networking'],
   },
 ]
 
