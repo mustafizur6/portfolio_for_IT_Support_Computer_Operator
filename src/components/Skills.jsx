@@ -8,25 +8,20 @@ const skillGroups = [
     category: 'Office & Documents',
     icon: '📄',
     color: 'blue',
-    skills: ['MS Word', 'MS Excel', 'MS PowerPoint', 'Google Sheets', 'EQ Field Code', 'Document Formatting', 'Question Paper Formatting', 'Certificate & Notice Formatting'],
+    skills: ['Document Formation and creation','Email Management','Data Entry',, 'Confidential Data Handling & Backup', ],
   },
-  {
-    category: 'Data Entry',
-    icon: '⌨️',
-    color: 'green',
-    skills: ['English Data Entry','Bangla Entry ',  'Admission & Attendance Entry', 'Email Management', 'Record Filing', 'Data Backup'],
-  },
+
   {
     category: 'IT Support',
     icon: '🖥️',
     color: 'purple',
-    skills: ['PC Diagnosis', 'OS Installation', 'Software Setup', 'Virus Removal', 'Driver Updates', 'Printer Maintenance'],
+    skills: ['PC Diagnosis & Optimization', 'OS Installation & Setup', 'Hardware-Software Configuration & Troubeshooting (basic)', 'Virus Removal & Security', 'Printer Maintenance'],
   },
   {
-    category: 'Typing & Tools',
+    category: 'Tools',
     icon: '🚀',
     color: 'orange',
-    skills: ['English — 55 WPM', 'Bangla — 25 WPM', 'Claude AI', 'ChatGPT'],
+    skills: ['MS Word', 'MS Excel', 'MS PowerPoint', 'Google Sheets', "Canva" , 'Claude AI', 'ChatGPT'],
   },
   {
     category: 'Soft Skills',

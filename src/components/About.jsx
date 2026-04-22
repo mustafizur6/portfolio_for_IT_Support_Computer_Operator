@@ -97,7 +97,7 @@ export default function About() {
               <p className="text-green-400 text-3xl font-bold">40</p>
               <p className="text-gray-400 text-xs mt-1">WPM Bangla</p>
             </div>
-            <a href="/cv.pdf" download
+            <a href="https://drive.google.com/file/d/1FnDXe5dw8gAN87al9sQL_2f6WK_4BGk_/view?usp=sharing" download
               className="text-white flex items-center gap-2 hover:text-green-400 transition-colors font-medium">
               Download CV <span className="text-green-400">✦</span>
             </a>
