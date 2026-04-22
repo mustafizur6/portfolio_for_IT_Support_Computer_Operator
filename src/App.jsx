@@ -7,6 +7,8 @@ import SampleWork from './components/SampleWork'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import Nasheed from './components/Nasheed'
+
 
 export default function App() {
   return (
@@ -17,6 +19,7 @@ export default function App() {
       <SampleWork />
       <Education />
       {/* <Projects /> */}
+      <Nasheed />
       <About />
       <Contact />
       <Footer />
