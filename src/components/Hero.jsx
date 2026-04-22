@@ -55,7 +55,7 @@ export default function Hero() {
 
             <h1 ref={h1Ref}
               className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4 sm:mb-6">
-              <span className="text-green-400">I'm Mustafizur,</span>
+              <span className="text-green-400">I'm Mustafizur Rahman,</span>
               <br />
               <span className="text-white">Computer Operator</span>
              

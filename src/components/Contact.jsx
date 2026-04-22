@@ -115,13 +115,13 @@ export default function Contact() {
             </div>
 
             {/* Availability */}
-            <div className="bg-green-400/10 border border-green-400/20 rounded-2xl p-4">
+            {/* <div className="bg-green-400/10 border border-green-400/20 rounded-2xl p-4">
               <p className="text-green-400 text-sm font-bold mb-1">✅ Currently Available</p>
               <p className="text-gray-400 text-xs leading-relaxed">
                 Available full-time Saturday–Thursday.<br />
                 BA classes on Fridays only. Ready to join immediately.
               </p>
-            </div>
+            </div> */}
           </div>
 
           {/* Right — Form */}
