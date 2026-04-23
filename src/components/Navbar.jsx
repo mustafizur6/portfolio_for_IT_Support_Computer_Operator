@@ -28,7 +28,7 @@ export default function Navbar() {
     document.querySelector(href)?.scrollIntoView({ behavior: 'smooth' })
   }
 
-  const CV_URL = 'https://drive.google.com/file/d/1krvP1D63RQ-QEhbxovwaAEihnJywl0sm/view?usp=sharing'
+  const CV_URL = 'https://drive.google.com/file/d/17gGk9cuXf84NUFo08WH3UT9HtxCC9tTv/view?usp=sharing'
 
   return (
     <nav className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
