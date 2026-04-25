@@ -37,8 +37,14 @@
 // https://i.ibb.co.com/B5fLFg6F/Typing.png
 
 
+// Canva 
+// Certificate :  https://drive.google.com/file/d/1pDcT8bJ8kbW1f3Zd-sNOOst-bDMVFeuF/view?usp=sharing
 
+// typing 
+// https://drive.google.com/file/d/17Iaa0_YYCsjyUeOBe8TcRqHoXTqdeiAo/view?usp=sharing
 
+// https://i.ibb.co.com/Fb838hk7/Screenshot-2026-04-25-231955.png
+// https://i.ibb.co.com/fL6wbW0/Screenshot-2026-04-25-232319.png
 
 
 import { useEffect, useRef, useState } from 'react'
@@ -46,7 +52,7 @@ import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 
-const categories = ['All', 'MS Word', 'MS Excel', 'Data Management', 'Typing Speed', 'Email Management']
+const categories = ['All', 'MS Word', 'MS Excel',"Canva" , 'Data Management', 'Typing Speed', 'Email Management']
 
 const samples = [
   {
@@ -54,9 +60,18 @@ const samples = [
   category: 'MS Word',
   desc: 'Professionally formatted school notice using proper layout, spacing, and official tone.',
   file: 'https://drive.google.com/file/d/1ijGrkHfewSdHpelhPoQGSP0dDXp_1HDx/preview',
-  download: 'https://drive.google.com/uc?export=download&id=1ijGrkHfewSdHpelhPoQGSP0dDXp_1HDx',
+  download: 'https://drive.google.com/uc?export=download&id=1pDcT8bJ8kbW1f3Zd-sNOOst-bDMVFeuF',
   thumbnail: 'https://i.ibb.co.com/3mshMGKF/Notice.png',
   tags: ['Notice', 'Formatting', 'Official'],
+},
+  {
+  title: 'Certificate',
+  category: 'Canva',
+  desc: 'Professionally formatted school notice using proper layout, spacing, and official tone.',
+  file: 'https://drive.google.com/file/d/1pDcT8bJ8kbW1f3Zd-sNOOst-bDMVFeuF/preview',
+  download: 'https://drive.google.com/uc?export=download&id=1ijGrkHfewSdHpelhPoQGSP0dDXp_1HDx',
+  thumbnail: 'https://i.ibb.co.com/Fb838hk7/Screenshot-2026-04-25-231955.png',
+  tags: ['Certificate', 'Formatting', 'Design'],
 },
 {
   title: 'Data Management & Backup & Privacy & Policy',
@@ -108,10 +123,10 @@ const samples = [
     title: 'Typing Certificate',
     category: 'Typing Speed',
     desc: 'Typing speed certification demonstrating 55 WPM accuracy.',
-    file: 'https://drive.google.com/file/d/1ShOITma3YwY_LUK6xEEMkhbZwCN2w_27/preview',
-    download: 'https://drive.google.com/uc?export=download&id=1ShOITma3YwY_LUK6xEEMkhbZwCN2w_27',
-    thumbnail: 'https://i.ibb.co.com/B5fLFg6F/Typing.png',
-    tags: ['Typing', '55+ WPM'],
+    file: 'https://drive.google.com/file/d/17Iaa0_YYCsjyUeOBe8TcRqHoXTqdeiAo/preview',
+    download: 'https://drive.google.com/uc?export=download&id=17Iaa0_YYCsjyUeOBe8TcRqHoXTqdeiAo',
+    thumbnail: 'https://i.ibb.co.com/fL6wbW0/Screenshot-2026-04-25-232319.png',
+    tags: ['Typing', '60+ WPM'],
   },
 ]
 

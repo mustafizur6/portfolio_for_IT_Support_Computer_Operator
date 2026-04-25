@@ -15,13 +15,13 @@ const skillGroups = [
     category: 'IT Support',
     icon: '🖥️',
     color: 'purple',
-    skills: ['PC Diagnosis & Performance Optimization', 'OS Installation & Setup', 'Hardware-Software Configuration & Troubeshooting (basic)', 'Virus Removal & Security', 'Printer Setup & Maintenance'],
+    skills: ['PC Diagnosis & Performance Optimization', 'OS Installation & Setup', 'Hardware-Software Configuration & Troubeshooting (basic)', 'Virus Removal & Security', 'Office equipment Setup & Maintenance'],
   },
   {
     category: 'Tools',
     icon: '🚀',
     color: 'orange',
-    skills: ['MS Word', 'MS Excel', 'MS PowerPoint', 'Google Sheets', "Canva" , 'Claude AI', 'ChatGPT'],
+    skills: ['MS Word', 'MS Excel', 'MS PowerPoint', 'Google Sheets', "Canva" , 'AI Tools'],
   },
   {
     category: 'Soft Skills',
