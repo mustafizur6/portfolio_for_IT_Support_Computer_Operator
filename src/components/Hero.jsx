@@ -64,7 +64,7 @@ export default function Hero() {
             <p ref={paraRef}
               className="text-gray-400 text-sm sm:text-base leading-relaxed mb-8 sm:mb-10 max-w-lg">
               Detail-oriented and disciplined Computer Operator with expertise in MS Office Suite,
-              Bangla & English data entry, document formatting, and IT support.
+              Bangla & English data entry, document formatting, and basic IT support.
               Committed to accuracy, confidentiality, and efficient operations.
             </p>
 
