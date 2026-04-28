@@ -82,15 +82,20 @@ const samples = [
   thumbnail: 'https://i.ibb.co.com/CK0Qp2D7/Data-Management-and-Backup.png',
   tags: ['Backup', 'System', 'Files', 'Privacy', 'Security'],
 },
-  {
-    title: 'Student Result Sheet',
-    category: 'MS Excel',
-    desc: 'Excel-based result sheet with GPA calculation and structured layout.',
-    file: 'https://docs.google.com/spreadsheets/d/1XdKYBl27wp614V5K9RUSYIqBBtukbxRB4QzKiGiGlvY/preview',
-    download: 'https://docs.google.com/spreadsheets/d/1XdKYBl27wp614V5K9RUSYIqBBtukbxRB4QzKiGiGlvY/export?format=xlsx',
-    thumbnail: 'https://i.ibb.co.com/0yrQ8862/Screenshot-2026-04-22-125830.png',
-    tags: ['Excel', 'GPA'],
-  },
+{
+  title: 'Student Result Sheet',
+  category: 'MS Excel',
+  desc: 'Excel-based result sheet with GPA calculation and structured layout.',
+  
+  file: 'https://docs.google.com/spreadsheets/d/1dz20yiS9l1W-E6eJmX_hKG4XkUUB4ejf/preview',
+  
+  download: 'https://docs.google.com/spreadsheets/d/1dz20yiS9l1W-E6eJmX_hKG4XkUUB4ejf/export?format=xlsx',
+  
+  thumbnail: 'https://i.ibb.co.com/0yrQ8862/Screenshot-2026-04-22-125830.png',
+  
+  tags: ['Excel', 'GPA'],
+},
+  // https://docs.google.com/spreadsheets/d/1dz20yiS9l1W-E6eJmX_hKG4XkUUB4ejf/edit?usp=sharing&ouid=105611622765538065186&rtpof=true&sd=true
   {
     title: 'Attendance Sheet',
     category: 'MS Excel',
@@ -110,15 +115,15 @@ const samples = [
     tags: ['Database', 'Records'],
   },
  
- {
-  title: 'Email Management Guide',
-  category: 'Email Management',
-  desc: 'Professional email handling guide including templates, reply structure, and communication workflow for school environment.',
-  file: 'https://drive.google.com/file/d/1vAqXGr7Tci46f-ycWC35-6jrnqjicEtP/preview',
-  download: 'https://drive.google.com/uc?export=download&id=1vAqXGr7Tci46f-ycWC35-6jrnqjicEtP',
-  thumbnail: 'https://i.ibb.co.com/W4ZprFCv/Screenshot-2026-04-22-135904.png',
-  tags: ['Email', 'Template', 'Communication'],
-},
+//  {
+//   title: 'Email Management Guide',
+//   category: 'Email Management',
+//   desc: 'Professional email handling guide including templates, reply structure, and communication workflow for school environment.',
+//   file: 'https://drive.google.com/file/d/1vAqXGr7Tci46f-ycWC35-6jrnqjicEtP/preview',
+//   download: 'https://drive.google.com/uc?export=download&id=1vAqXGr7Tci46f-ycWC35-6jrnqjicEtP',
+//   thumbnail: 'https://i.ibb.co.com/W4ZprFCv/Screenshot-2026-04-22-135904.png',
+//   tags: ['Email', 'Template', 'Communication'],
+// },
   {
     title: 'Typing Certificate',
     category: 'Typing Speed',
