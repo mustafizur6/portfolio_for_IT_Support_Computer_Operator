@@ -3,7 +3,7 @@ import { gsap } from 'gsap'
 
 const marqueeItems = [
   'Computer Operator', 'Data Entry Specialist', 'IT Support', 'MS Office Expert',
-  'Document Formatting', '55+ WPM English Typing', 'Bangla & English', 'Available Full-Time'
+  'Document Formatting', '60 WPM English Typing', 'Bangla & English', 'Available Full-Time'
 ]
 
 const YOUTUBE_ID = 'dQw4w9WgXcQ' // ← replace with your actual YouTube ID
