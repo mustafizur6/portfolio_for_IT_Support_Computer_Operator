@@ -115,15 +115,15 @@ const samples = [
     tags: ['Database', 'Records'],
   },
  
-//  {
-//   title: 'Email Management Guide',
-//   category: 'Email Management',
-//   desc: 'Professional email handling guide including templates, reply structure, and communication workflow for school environment.',
-//   file: 'https://drive.google.com/file/d/1vAqXGr7Tci46f-ycWC35-6jrnqjicEtP/preview',
-//   download: 'https://drive.google.com/uc?export=download&id=1vAqXGr7Tci46f-ycWC35-6jrnqjicEtP',
-//   thumbnail: 'https://i.ibb.co.com/W4ZprFCv/Screenshot-2026-04-22-135904.png',
-//   tags: ['Email', 'Template', 'Communication'],
-// },
+ {
+  title: 'Email Management Guide',
+  category: 'Email Management',
+  desc: 'Professional email handling guide including templates, reply structure, and communication workflow for school environment.',
+  file: 'https://drive.google.com/file/d/1vAqXGr7Tci46f-ycWC35-6jrnqjicEtP/preview',
+  download: 'https://drive.google.com/uc?export=download&id=1vAqXGr7Tci46f-ycWC35-6jrnqjicEtP',
+  thumbnail: 'https://i.ibb.co.com/W4ZprFCv/Screenshot-2026-04-22-135904.png',
+  tags: ['Email', 'Template', 'Communication'],
+},
   {
     title: 'Typing Certificate',
     category: 'Typing Speed',
